@@ -1,0 +1,50 @@
+
+html
+{
+    height:100%;
+}
+
+body
+{
+    height:100%;
+}
+
+.navBar
+{
+    background:#A22828;
+    /* border:1px solid black; */
+    float:left;
+    width:150px;
+    height:100%;
+}
+
+.header
+{
+    border:1px solid white;
+    height:15%;
+    margin:30px;
+}
+
+.navBar .navbarBtn
+{
+    padding:10px;
+}
+
+.navbarBtn
+{
+    border:1px solid green;
+    height:60%;
+    margin:30px;
+    /* padding: 10px; */
+    
+}
+
+.bodyArea
+{
+    background:#E97676;
+    /* border:1px solid black; */
+    float:right;
+    height:100%;
+    width:80%;
+
+}
