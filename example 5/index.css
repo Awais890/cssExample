@@ -1,0 +1,98 @@
+/* contains left and right div */
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    font-size: 15px;
+    height:100%;
+}
+
+.parentDiv
+{
+    border: 1px solid red;
+}
+
+.parentDiv>div
+{
+    border: 1px solid black;
+}
+
+.parentDiv
+{
+    
+    display: flex;
+    /* justify-content:space-evenly; */
+    /* flex-wrap: wrap; */
+    /*👉gap: 30px;👈*/
+    height: 100%;
+}
+
+
+
+/* should be on the left side */
+.leftDiv
+{
+    
+    width : 100px;
+    height:100px;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    
+}
+
+.leftDiv .icon
+{
+    background: green;
+    padding: 2rem;
+}
+
+.leftDiv .buttons
+{
+    background: grey;
+    padding:1rem;
+    height: 70%;
+}
+
+.leftDiv .buttons button
+{
+    margin: 0.2rem 0 ;
+}
+
+/* should be on the right side */
+.rightDiv
+{   
+   
+    width : 100px;
+    height:100px;
+    text-align: center;
+    width:70%;
+    height: 100%;
+    margin-left: 1rem;
+    
+}
+
+.rightDiv .header
+{
+    border: 1px solid green;
+    padding:1rem;
+    font-size: 2rem;
+}
+
+.rightDiv .body
+{
+    height:80%;
+    border:1px solid green;
+    margin : 1rem 0;
+}
+
+.rightDiv .footer
+{
+    border:1px solid green;
+    padding:1.2rem;
+    font-size:1.2rem
+}
